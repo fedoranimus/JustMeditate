@@ -1,0 +1,19 @@
+body {
+  color: #000000;
+  background-color: #ffffff;
+}
+
+#banner {
+  text-transform: capitalize;
+  font-size: 24em;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+#cta {
+
+}
