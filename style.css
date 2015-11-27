@@ -3,17 +3,95 @@ body {
   background-color: #ffffff;
 }
 
-#banner {
-  text-transform: capitalize;
-  font-size: 24em;
+#content {
   margin: auto;
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
+  font-size: 5em;
+  text-align: center;
+  overflow: auto;
+  height: 40%;
+}
+
+#name {
+  text-transform: capitalize;
+  /*font-size: 2em;*/
+  text-align: center;
 }
 
 #cta {
+  text-align: center;
+  overflow: hidden;
+}
 
+#cta .store {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 20px;
+}
+
+#cta .store.android img {
+  height: 60px;
+  width: 185px;
+}
+
+#cta .store.ios {
+  font-size: .25em;
+}
+
+#cycle {
+    margin-top: 25px;
+    font-size: .7em;
+    /*text-align: center;*/
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  bottom: 15px;
+  left: 0;
+}
+
+.google {
+  font-style: italic;
 }
