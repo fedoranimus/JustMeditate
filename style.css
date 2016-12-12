@@ -38,6 +38,10 @@ body {
   width: 185px;
 }
 
+#cta .store.android {
+    font-size: .25em;
+}
+
 #cta .store.ios {
   font-size: .25em;
 }
