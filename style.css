@@ -33,10 +33,10 @@ body {
   margin: 20px;
 }
 
-#cta .store.android img {
+/*#cta .store.android img {
   height: 40px;
   width: 103px;
-}
+}*/
 
 #cta .store.android {
     font-size: .25em;
